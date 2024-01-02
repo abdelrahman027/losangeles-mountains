@@ -1,0 +1,11 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#landing-header {
+  background-image: url("/landingImg.png");
+  background-size: cover;
+  filter: saturate(50%);
+}
