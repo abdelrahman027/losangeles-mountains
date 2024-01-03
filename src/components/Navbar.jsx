@@ -5,7 +5,7 @@ import LosAngeles from "./LosAngeles";
 
 const Navbar = ({ textClasses, Classes, titled }) => {
   return (
-    <div className={` z-10 flex items-center justify-between p-2 ${Classes}`}>
+    <div className={` z-50 relative flex items-center justify-between p-2 ${Classes}`}>
       <div className={`relative ${titled && "flex gap-1 items-center"}`}>
         <img src="/Logo.png" alt="logo" />
         {titled && (

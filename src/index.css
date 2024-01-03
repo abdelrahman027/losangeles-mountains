@@ -5,7 +5,24 @@
 @tailwind utilities;
 
 #landing-header {
-  background-image: url("/landingImg.png");
+  background-image: url('./assets/landingImg.png');
   background-size: cover;
   filter: saturate(50%);
+}
+#landing-header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('./assets//piclanding.png');
+  width: 100%;
+  height: 100%;
+  opacity: 30%;
+}
+#peak-section {
+  background-image: url('./assets//peak2.png');
+  filter: saturate(50%);
+}
+html {
+  scroll-behavior: smooth;
 }
