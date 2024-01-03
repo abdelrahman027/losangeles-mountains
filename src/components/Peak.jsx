@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+
 import Wrapper from "./Wrapper";
 import Navbar from "./Navbar";
 import MainHeading from "./MainHeading";
@@ -12,7 +12,7 @@ const Peak = () => {
       <Wrapper classes={""}>
         <Navbar titled={true} textClasses={"text-[#414f6b]"} />
       </Wrapper>
-      <div className="  bg-[url('peak.jpg')] h-screen bg-cover saturate-50 -z-10">
+      <div className="  bg-[url('peak2.png')] h-screen bg-cover saturate-50 -z-10">
         <Wrapper classes={"h-full"}>
           <div className="p-16">
             <div>
