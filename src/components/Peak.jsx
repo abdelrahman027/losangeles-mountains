@@ -8,7 +8,7 @@ import Corasol from "./Corasol";
 
 const Peak = () => {
   return (
-    <main id="history">
+    <main id="history relative">
       <Wrapper classes={""}>
         <Navbar titled={true} textClasses={"text-[#414f6b]"} />
       </Wrapper>
