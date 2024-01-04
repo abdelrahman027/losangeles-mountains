@@ -8,11 +8,11 @@ import Corasol from "./Corasol";
 
 const Peak = () => {
   return (
-    <main id="history relative">
+    <main id="history" className="">
       <Wrapper classes={""}>
         <Navbar titled={true} textClasses={"text-[#414f6b]"} />
       </Wrapper>
-      <div id="peak-section" className="h-screen bg-cover saturate-50 -z-10">
+      <div id="peak-section" className="h-screen bg-cover saturate-50 relative -z-10">
         <Wrapper classes={"h-full"}>
           <div className="p-16">
             <div>
