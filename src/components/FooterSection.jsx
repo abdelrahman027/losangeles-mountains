@@ -5,9 +5,9 @@ import Wrapper from "./Wrapper";
 
 const FooterSection = () => {
   return (
-    <footer className="bg-[#414f6b] p-2 relative">
+    <footer className="bg-[#414f6b] p-2  relative">
       <div className="absolute top-0 left-0 w-full h-full bg-[#414f6b]/50"></div>
-      <Wrapper classes={"flex items-center justify-between"}>
+      <Wrapper classes={"flex flex-col gap-1 md:items-center md:justify-between md:flex-row"}>
         <div className="flex items-center gap-1">
           <img src="./Logo.png" alt="logo" />
           <h1 className="uppercase text-[#b0b4be] leading-[1rem] font-bold">
